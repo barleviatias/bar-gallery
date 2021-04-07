@@ -32,12 +32,15 @@ function renderProject() {
 
 }
 
+
+
 function renderModal(projId){
     console.log(projId);
     var currProj=getProjById(projId)
     $('.portfolio-modal h2').text(currProj.name)
     $('.portfolio-modal .item-intro').text(currProj.title)
     $('.portfolio-modal .proj-desc').text(currProj.desc)
+    $('.proj-image').attr('src', `img/portfolio/${currProj.id}.jpg`)
     console.log(currProj);
     
 }

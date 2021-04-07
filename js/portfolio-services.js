@@ -4,8 +4,8 @@ var gProj;
 function creatProject() {
 	return [
 		{
-			id: 'sokoban',
-			name: 'Sokoban',
+			id: 'pacman',
+			name: 'Pacman',
 			title: 'Better push those boxes',
 			desc: 'lorem ipsum lorem ipsum lorem ipsum',
 			url: 'projs/sokoban',
